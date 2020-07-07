@@ -1,0 +1,49 @@
+.bg-primary-black {
+    background-color: #151515;}
+
+.section-title span {
+    font-size: 16px;
+    color: #f36100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bg-primary-img {
+    background-image: url("https://colorlib.com/preview/theme/gymlife/img/banner-bg.jpg");
+height: 550px;
+}
+
+/*div [class="text-white"]:hover  {*/
+/*    color: black;*/
+/*}*/
+
+div [class="card-body text-white"]:hover {
+     background-color: white;
+
+}
+
+
+div [class="card-body text-white"]:hover p{
+    color: black;
+}
+
+div [class="card-body text-white"]:hover a {
+    background-color: #EA9F26;
+}
+/*.absl-displ {*/
+/*    display: none;*/
+/*}*/
+
+div [class="position-relative"]:hover .position-absolute {
+    /*display: block;*/
+    background-color: #EA9F26;
+    opacity: 0.5%;
+    padding-top: 55% !important;
+    z-index: -3;
+
+}
+
+
+
+
+

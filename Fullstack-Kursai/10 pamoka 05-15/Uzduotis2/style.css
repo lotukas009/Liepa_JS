@@ -1,0 +1,21 @@
+/*.pirmas{*/
+/*    background-color: blue;*/
+/*    !*background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");*!*/
+/*    height: 50px;*/
+
+/*}*/
+.relative {
+    position: relative;
+}
+.absolute {
+    display: none;
+}
+.pirmas:hover .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(205,205,205,0.5);
+    height: 99%;
+    width: 40%;
+}

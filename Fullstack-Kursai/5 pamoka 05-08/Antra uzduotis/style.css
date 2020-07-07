@@ -1,0 +1,45 @@
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    margin: 100px auto 0;
+}
+form {
+    background-color: grey;
+    padding: 20px 80px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+label, input, textarea {
+    margin: 10px;
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+}
+
+input, textarea {
+    width: 55%;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+
+.button {
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 20%;
+}

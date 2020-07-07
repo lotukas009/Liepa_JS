@@ -1,0 +1,49 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header img{
+    width: 250px;
+    margin: 10px 0;
+}
+
+header nav {
+    background-color: #28a745;
+    padding: 20px;
+}
+
+header nav a{
+    color: white;
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+#about {
+    background-color: #eee;
+}
+
+section {
+    padding: 30px;
+}
+section h2 {
+    background-color:green;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+#contact {
+    background-color: lightgreen;
+
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+

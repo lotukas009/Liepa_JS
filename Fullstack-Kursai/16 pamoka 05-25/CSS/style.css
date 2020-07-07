@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*  {
+    font-family: Open Sans', sans-serif;;
+}
+header {
+    background-color: #7d71d3;
+}
+ul {
+    /*list-style: none;*/
+    list-style-type: none;
+}
+.bg-snow {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/banner-bg.jpg");
+}
+
+.bg-gray {
+    background-color:rgb(248, 248, 248);
+}
+.bg-elipse {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/elipse-bg.png");
+    background-repeat: no-repeat;
+    position: center;
+}
+.bg-elipse-rose {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/elipse-bg-two.png");
+    background-repeat: no-repeat;
+}
+.bg-blue {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-overlay-bg.jpg");
+}
+
+.bg-desk{
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/desk-bg.jpg");
+    position: relative;
+}
+
+.bg-desk::before {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-overlay-bg.jpg");
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.ptb-90px {
+    padding: 90px 0 90px 0;
+}
+
+.ptb-140px {
+    padding: 140px 0 140px 0;
+}
+
+.content-block h1  {
+    line-height: 90px!Important;
+    margin-top: 200px;
+    font-weight: 400;
+}
+
+.font-s {
+       font-size: 70px;
+}
+
+.content-block1, .app-icons ul li {
+    display: inline-block;
+    }
+
+.ml-40- {
+    margin-left: -41px;
+}
+.mr-40- {
+    margin-right: -40px;
+}
+.pl-50px {
+    padding-left: 90px;
+}
+
+.text-stylep, .text-stylepbg, span {
+    font-size: 16px;
+    line-height: 28px;
+    color: #999999;
+}
+.content-block1 {
+    background-color: white;
+}
+
+.content-block2 {
+    background-color: #7d71d3;
+    color: white;
+}
+.ml-100 {
+    margin-left: 100px;
+}
+
+.text-stylepbg {
+    font-size: 17px;
+}
+.text-stylepend {
+    text-align: end;
+    padding-right: 0;
+    margin-right: 0;
+}
+.h2, .h2-white {
+    font-size: 48px;
+    font-weight: 300;
+}
+.button-video {
+    background-color: #7d71d3;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    content: "";
+    top:215px;
+    right: 425px;
+    bottom:318px;
+    left: 451px;
+
+    box-sizing: border-box;
+    border:none;
+}
+.titleh5 {
+    font-size: 20px;
+}
+.pricing-table {
+    background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.price, .pricer {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7d71d3;
+}
+.pricer {
+    color: #ff698d;
+}
+.btn-roundedbl, .btn-roundedrd {
+    background-color: #7d71d3;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    letter-spacing: 1px;
+
+}
+.btn-roundedrd {
+    background-color: #ff698d;
+    border: #ff698d ;
+}
+.content-block, .h2-white {
+    color: white;
+    font-weight: 300!important;
+    margin-bottom: 100px;
+    font-size: 50px;
+    line-height: 1;
+    padding-right: 30px;
+}
+.bg-mobile {
+    top: -121px;
+    right: 0px;
+    bottom: 0px;
+    left: 182px;
+
+}
+
+.coltxt {
+    text-align: center;
+    color: white;
+    padding: 35px 0;
+    border-radius: 8px;
+   }
+h3 {
+    font-size: 50px;
+
+}
+.bg-card {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   margin-right: 10px;
+}
+.img-foto img {
+    border-radius: 50%;
+    text-align: center;
+}
+.progress {
+    /*display: flex;*/
+    width: 80%;
+    height: 7px;
+
+}
+
+.progress-bar {
+    display: flex;
+    background: #7d71d3;
+    height: 7px;
+    line-height: 3px;
+    color: #fff;
+    transition: width .6s
+}
+.form-bar {
+    display: flex;
+    flex: 1 1 auto;
+    box-sizing: inherit;
+}
+
+.custom-file-label {
+    border: red;
+}
+.p-purple {
+    color: #7d71d3;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+.custom-file-label::after {
+       background-color: #7d71d3;
+
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram   {
+    /*display: block;*/
+    height: 35px;
+    width: 35px;
+    background: #f8f8f8;
+    text-align: center;
+    border-radius: 100%;
+}

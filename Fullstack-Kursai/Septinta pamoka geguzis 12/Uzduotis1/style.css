@@ -1,0 +1,224 @@
+.wrapper {
+width: 80%;
+ margin: 0 auto;
+}
+
+.flex-header {
+    display:flex;
+justify-content: space-between;
+    align-items: center;}
+
+a {
+        padding: 10px;
+
+}
+
+nav a {
+    font-family:Calibri;
+    font-weight: 700;
+}
+.sticky {
+    position: sticky;
+}
+
+.section1 {
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.h2 {
+    color: darkred;
+    font-family: Calibri;
+    font-size: 60px;
+    /*letter-spacing:20px;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: 700;*/
+
+}
+.h5 {
+    color: darkred;
+    font-family: cursive;
+    font-size: 40px;
+
+}
+#t-small {
+    color: darkred;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+.background-section {
+    width: 1433px;
+    height: 600px;
+    background-image: url("Images/Workplace-Productivity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.button1 {background-color: #00b4d9;
+color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+.w-50 {
+    width: 50%}
+.flex-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background-section1 {
+    width: 1433px;
+    height: 450px;
+    background-color: rgb(245, 245, 245);
+        background-size: cover;
+
+}
+#h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.w-20 {
+    width: 20%;
+}
+.flex-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+.background-section2 {
+    width: 1433px;
+    height: 600px;
+
+}
+.w-90 {
+    width: 90%;
+      background-color: rgb(245, 245, 245);
+
+
+}
+
+.borde {
+
+    border-left: black 10px;
+
+}
+.background-section3 {
+    background-color: rgb(245, 245, 245);
+    width: 1433px;
+    height: 740px;
+}
+.h1 {
+    font-family: Calibri;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 30px 20px 30px;
+    margin-bottom: 10px;
+}
+.flex-buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button2 {
+    background-color: #00b4d9;
+    color: white;
+    padding: 20px 40px 20px; 40px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.w-32 {
+    width: 32%;
+   padding-top: 30px;
+
+}
+.background-section4 {
+    width: 1433px;
+    height: 500px;
+    background-image: url("Images/Night-town.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mar
+}
+
+#h5 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: Calibri;
+}
+
+#h6 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Calibri;
+    margin: 0;
+}
+
+.cat {
+    color: #00b4d9;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.background-section6 {
+    width: 1433px;
+    height: 80px;
+    background-color: rgb(245, 245, 245);
+}
+.background-section5 {
+    width: 1433px;
+    height: 1000px;
+    background-color: rgb(245, 245, 245);
+}
+.footer {
+    background-color: white;
+    width: 90%;
+    height: 900px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.w-90-1 {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 90%;
+        margin-left: 25px;
+}
+
+.text-dec {
+    border-color: grey;
+    padding: 20px 0;
+}
+.pad {
+    padding: 10px 10px;
+}
+.w-100 {
+    width: 95%;
+}
+
+.button3 {
+    background-color: #00b4d9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flex-inlinen {
+    display: flex;
+    justify-content: ;
+}
+.map {
+    width: 100%;
+    height: 300px;
+}

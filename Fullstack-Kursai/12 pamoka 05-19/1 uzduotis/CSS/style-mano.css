@@ -1,0 +1,10 @@
+
+
+th:hover, td:hover {
+    color: red;
+    /*background-color: #cccccc;*/
+    /*opacity: 0.2%;*/
+}
+tr:hover {
+    background-color: #cccccc;
+}

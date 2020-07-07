@@ -1,0 +1,29 @@
+body {background-image: url("https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+background-repeat: no-repeat;
+background-size: cover;}
+h1 {
+    text-align: center;
+}
+input {
+    margin-bottom: 20px;}
+input, textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    width: 100%;}
+form {
+    padding: 20px;
+    background-color: white;
+    width: 30%;
+    margin: 50px auto 0;
+}
+label, input {
+    display: block;
+}
+.send {
+    border-bottom: none;
+    color: white;
+    background-color: black;
+    width: 100px;
+}

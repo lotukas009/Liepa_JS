@@ -1,0 +1,26 @@
+* {color: white;}
+.comments {
+    display: flex;
+    width: 200%;
+}
+
+.block-40 {
+    width: 40%;
+}
+
+.opacity{
+    opacity: 0.4;
+}
+
+.a100 {
+    overflow: hidden;
+    width: 100%;
+    background-color: #3B2930;
+}
+h1 {
+    font-size: 36px;
+}
+
+p {
+
+}

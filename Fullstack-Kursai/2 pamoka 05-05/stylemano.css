@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(51, 63, 72);
+}
+.wrapper {background-color: white;
+    width: 70%;
+    margin: 0 auto;
+
+}
+header  {background-color: rgb(255,71,0);
+color: white;
+    overflow: auto;
+    text-align: center;
+}
+.menu { padding: 10px 0;
+
+}
+.title, .menu {
+    text-align: center;
+}
+.menu a {
+    color: white;
+    padding: 0 20px;
+}
+section {
+    padding: 50px 12px;
+    border-bottom: 1px solid black;
+}
+h2 {
+    text-align: center;
+}
+.content {
+    display: inline-block;
+    width: 720px;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.content a {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+

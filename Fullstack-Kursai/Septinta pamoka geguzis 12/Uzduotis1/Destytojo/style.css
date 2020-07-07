@@ -1,0 +1,168 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-grey {
+    background-color: rgb(245, 245, 245);
+}
+
+#logo {
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 25px;
+    color: black;
+    font-family: Arial;
+}
+
+.ptb-20 {
+    padding: 20px 0;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.pl-10 {
+    padding-left: 10%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bor-grey {
+    border: 1px solid lightgray;
+}
+
+.bor-grey-ntop {
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fs {
+    font-size: 50px;
+    margin: 0 30px;
+}
+
+.tx-about {
+    font-size: 100px;
+    color: lightgray;
+    margin: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 206px;
+    top: 192px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.mini-card-header {
+    font-family: Arial;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.mini-card-font {
+    color: grey;
+    font-family: Arial;
+    font-size: large;
+}
+
+.flex-right-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.flex-col {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.h-60 {
+    height: 600px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.box-25 {
+    width: 25%;
+}
+
+.box-50 {
+    width: 50%;
+}
+
+.box-100 {
+    width: 100%;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

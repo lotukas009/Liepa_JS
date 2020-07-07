@@ -1,0 +1,71 @@
+
+.wrapper {
+    background-color: #EA9F26;
+    width: ;
+}
+
+header {
+    background: url("Images/Landscape.jpg");
+    width: 191vh;
+    margin:0 auto;
+        overflow: auto;
+    height: 95vh;
+    color: white;
+
+}
+h2, h1 {
+    color: white;
+}
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    JUSTIFY-CONTENT: space-around;
+
+}
+.flex-menu a{
+
+    display: flex;
+    ALIGN-ITEMS: baseline;
+    padding: 20px 20px;
+    ALIGN-CONTENT:space-around;
+}
+
+a {
+    color: white;
+    text-align: left;
+
+}
+.flex-name {
+    display: flex;
+    flex-direction: column;
+    ALIGN-ITEMS:center;
+    ALIGN-CONTENT:center;
+}
+.flex-button  {border-radius: 30px;
+    background-color: saddlebrown;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+        flex-wrap: wrap;
+    ALIGN-CONTENT:space-around;
+
+}
+.flex-button div {
+    display: flex;
+    flex-direction: row;
+     color: white;
+    flex-wrap: wrap;
+    ALIGN-ITEMS:center;
+    padding: 20px;
+
+}
+
+.flex-main1 {display: flex;
+    flex-direction: row;
+
+}
+.flex-main1-1 {display: flex;
+    flex-direction: COLUMN;
+
+}
+

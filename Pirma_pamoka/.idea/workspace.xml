@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d88c776-c8af-4283-8ca3-32a6dcf87ccc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1bXbDlC4qfuZ9wlH4cleH6AJRue" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fullstack-Kursai/15 pamoka 05-22" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\15 pamoka 05-22" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\14 pamoka 05-21" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\12 pamoka 05-19\2 uzduotis" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\12 pamoka 05-19\1 uzduotis\CSS" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\12 pamoka 05-19\1 uzduotis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\12 pamoka 05-19\2 uzduotis\CSS" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\12 pamoka 05-19\1 uzduotis\CSS" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\11 pamoka 05-18" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai" />
+      <recent name="C:\Users\JURATE\PhpstormProjects\Fullstack-Kursai\Desimta pamoka geguzis 15\Uzduotis1" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d88c776-c8af-4283-8ca3-32a6dcf87ccc" name="Default Changelist" comment="" />
+      <created>1588781269027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588781269027</updated>
+      <workItem from="1588781272254" duration="28900000" />
+      <workItem from="1588915548885" duration="25106000" />
+      <workItem from="1589112360916" duration="106933000" />
+      <workItem from="1589429835605" duration="64925000" />
+      <workItem from="1589643738458" duration="149708000" />
+      <workItem from="1590121734361" duration="5486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="497" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589117335342">
+      <screen x="0" y="0" width="1440" height="903" />
+    </state>
+    <state x="497" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.903@0.0.1440.903" timestamp="1589117335342" />
+    <state x="501" y="207" key="FileChooserDialogImpl" timestamp="1590062578800">
+      <screen x="0" y="0" width="1440" height="903" />
+    </state>
+    <state x="501" y="207" key="FileChooserDialogImpl/0.0.1440.903@0.0.1440.903" timestamp="1590062578800" />
+    <state x="377" y="207" key="run.anything.popup" timestamp="1589902583631">
+      <screen x="0" y="0" width="1440" height="903" />
+    </state>
+    <state x="377" y="207" key="run.anything.popup/0.0.1440.903@0.0.1440.903" timestamp="1589902583631" />
+    <state x="399" y="117" width="672" height="676" key="search.everywhere.popup" timestamp="1589559720665">
+      <screen x="0" y="0" width="1440" height="903" />
+    </state>
+    <state x="399" y="117" width="672" height="676" key="search.everywhere.popup/0.0.1440.903@0.0.1440.903" timestamp="1589559720665" />
+  </component>
+</project>

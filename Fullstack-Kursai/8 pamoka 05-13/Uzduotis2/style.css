@@ -1,0 +1,129 @@
+header {
+    background-color: rgb(185, 228, 237);
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    ALIGN-ITEMS: center;
+
+}
+#h2 {
+    padding: 10px;}
+nav {
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+     padding: 30px;
+    height: 100%;
+
+}
+
+nav:hover {
+    color: white;
+}
+.nav-box-blue  {background-color: cornflowerblue;
+    color: white;
+}
+.nav-box-red:hover {background-color: crimson;}
+.nav-box-orange:hover {background-color: chocolate;}
+.nav-box-green:hover {background-color: mediumseagreen;}
+.nav-box-blue2:hover  {background-color: cornflowerblue;
+   }
+.flex-row  {
+       display: flex;
+   flex-direction: row;
+}
+
+.picture1 {background-image: url("Images/tm-img-01.jpg")
+}
+.picture2 {background-image: url("Images/tm-img-02.jpg")
+}
+.picture3 {background-image: url("Images/tm-img-03.jpg")
+}
+.picture4 {background-image: url("Images/tm-img-04.jpg")
+}
+.picture5 {background-image: url("Images/tm-img-05.jpg")
+}
+.picture6 {background-image: url("Images/tm-img-06.jpg")
+}
+.picture7 {background-image: url("Images/tm-img-07.jpg")
+}
+.picture8 {background-image: url("Images/tm-img-08.jpg")
+}
+.picture9 {background-image: url("Images/tm-img-09.jpg")
+}
+.picture10 {background-image: url("Images/tm-img-10.jpg")
+}
+.picture11 {background-image: url("Images/tm-img-11.jpg")
+}
+.picture12 {background-image: url("Images/tm-img-12.jpg")
+}
+.picture13 {background-image: url("Images/tm-img-13.jpg")
+}
+.picture14 {background-image: url("Images/tm-img-14.jpg")
+ }
+.picture15 {background-image: url("Images/tm-img-15.jpg")
+}
+.picture16 {background-image: url("Images/tm-img-16.jpg")
+}
+.first {
+    background-size: cover;
+    width: 25%;
+    height: 380px;
+
+}
+
+.inside {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    background-color: rgba(63,151,201,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+.first:hover .inside {
+    display: flex;
+    flex-direction: column;
+}
+.text-small {
+    font-size: 20px;
+
+}
+
+
+.bg-blue {
+    background-color:rgb(185, 228, 237) ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: flex-end;
+}
+
+.bg-dark-blue {
+    background-color: rgb(184, 206, 222);
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+.i {
+    background-color: white;
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    margin: 0 20px 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.i:hover {background-color: black;
+color: white;}

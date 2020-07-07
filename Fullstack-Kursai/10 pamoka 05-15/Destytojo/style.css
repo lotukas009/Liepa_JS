@@ -1,0 +1,32 @@
+ul {
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 60px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    color: green;
+    font-family: Arial;
+    font-size: 25px;
+    padding: 5px;
+}
+
+a:hover {
+    border-bottom: 2px solid blue;
+}
+
+li::after {
+    position: absolute;
+    right: -35px;
+    width: 2px;
+    height: 21px;
+    background-color: grey;
+    content: "";
+}

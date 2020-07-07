@@ -1,0 +1,183 @@
+/*Pridedama nuoroda is interneto bibliotekos kuri nurodo teksto sriftus*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*visiems puslapio elementams pritaikomas sis sriftas*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*visiems a elementams esantiems musu puslapyje pritaikomas spalva ir nuimamas apatinis bruksnys*/
+a {
+    color: #DB9A64;
+    text-decoration: none;
+}
+
+header, nav, ul {
+    display: flex;
+    align-items: center;
+}
+
+/*wrapper klase nurodo jog visi blokai bus atitraukti nuo krastu ir sucentruoti*/
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    justify-content: space-between;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    padding: 20px 40px;
+    background-color: #311E25;
+}
+
+.hover2 {
+    display: none;
+    z-index: 1;
+}
+
+nav {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-left, .header-right {
+    flex: 1;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border: 2px solid #db9a64;
+    padding: 15px 50px;
+}
+
+.hover:hover {
+    color: white;
+    background-color: #db9a64;
+}
+
+.bg-romb {
+    background-image: url("https://colorlib.com/preview/theme/jony/img/banner/footer_bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+}
+
+.bg-romb img {
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.hover1 {
+    position: relative;
+}
+
+.hover1:hover .hover2 {
+    position: absolute;
+    display: block;
+    padding: 0;
+    background-color: white;
+    width: 200px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.man-text-block {
+    width: 690px;
+    padding-top: 170px;
+
+}
+
+.man-text {
+    font-size: 80px;
+    font-weight: 300;
+    color: white;
+}
+
+.man-text-span {
+    color: #DB9A64;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.mlr-10 {
+    margin: 0 10px;
+}
+
+.p-10x15 {
+    padding: 10px 15px;
+}
+
+.t-color-b {
+    color: black;
+}
+
+.comments {
+    display: flex;
+    width: 200%;
+}
+
+.block-70 {
+    width: 40%;
+}
+
+.opacity{
+    opacity: 0.4;
+}
+
+.a100 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.bendras {
+    padding: 0 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery {
+    background-color: green;
+    height: 800px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.gallery-btn {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #db9a64;
+    padding: 15px 50px;
+}
+
+.gallery-col{
+    flex: 1;
+    text-align: center;
+}}

@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+
+    font-style: initial;
+}
+header {
+    width: 1423.33px;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    height: 200px;
+
+
+}
+.container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    ALIGN-ITEMS:center;
+}
+.menu-nav{display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: space-around;*/
+    /*ALIGN-ITEMS:center;*/
+    ALIGN-CONTENT: space-around;
+    padding: 60px 60px 10px 60px;
+    margin: 20px 30px;
+    font-size: 20px;
+    /*position: relative;*/
+
+}
+.menu-nav-li {
+    position: relative;
+}
+.menu-nav-li-a {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+
+}
+.fa-search {
+    color: #939394 ;
+    /*margin-right: 0 100px;*/
+    padding-left: 100px;
+}
+ul {
+    list-style: none;
+}
+
+
+.home {
+    color: #fc0254;
+    /*padding-bottom: 5px 0;*/
+    /*box-sizing: border-box;*/
+    /*border-bottom: 2px solid red;*/
+    /*text-decoration: underline;*/
+}
+
+.menu-nav-li-a:hover {
+    border-bottom: 2px solid  #fc0254;
+    color: #fc0254;
+}
+
+.menu-nav-li-a::after {
+    position: absolute;
+    right: -5px;
+    width: 2px;
+    height: 21px;
+    background-color: #939394;
+    content: "";
+}
+
+.hover1 {
+    position: relative;
+}
+.hover2 {
+    display: none;
+    z-index: 1;
+}
+.hover1:hover .hover2 {
+    position: absolute;
+    display: block;
+    padding: 0;
+    background-color: white;
+    width: 200px;
+}
+
+.wrapper {
+    width: 90%;
+ /*background-color: #db9a64;*/
+    height: 934px;
+    margin: 0 auto;
+}
+.big-container {
+    display: flex;
+}
+.row1 {
+    width: 25%;
+    /*background-color: #EA9F26;*/
+    height: 934px;
+}
+
+.row2 {
+    width: 50%;
+    /*background-color: #EA9F26;*/
+    height: 934px;
+}
+
+.column1 {
+    background-image: url("Images/Blynai-1.jpg");
+    height: 35%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.column2 {
+    background-image: url("Images/omletas.jpg");
+    height: 35%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.column3 {
+    background-image: url("Images/lasisa.jpg");
+    height: 90%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.column4 {
+    background-image: url("Images/kotletas.jpg");
+    height: 35%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.column5 {
+    background-image: url("Images/tiramisu.jpg");
+    height: 35%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin: 20px 0;
+}
+.text2 {
+    text-align: center;
+}
+.over-img {
+    position: absolute;
+    top: 980px;
+      LEFT: 465PX;
+    background-color: white;
+    width: 35%;
+}
+
+.absolute {
+    display: none;
+}
+.column1:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 95%;
+    width: 100%;
+}
+#h1, h1 {
+    text-align: center;
+    color: white;
+    ALIGN-CONTENT: center;
+    padding-top: 113px;
+
+
+}
+.column2:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 95%;
+    width: 100%;
+}
+
+.column4:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 95%;
+    width: 100%;
+}
+.column5:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 95%;
+    width: 100%;
+}
+.column3:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 88.6%;
+    width: 100%;
+}
+
+.h1 {
+    padding-top: 350px;
+ }
+
+.section-title {
+    width: 470px;
+    text-align: right;
+    background: #fc0254;
+      /*padding-right: 40px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*margin: 0;*/
+    height: 57px;
+    /*color: white;*/
+}
+#h5 {
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+    color: white;
+    padding: 18px 40px 18px 0;
+}
+
+.plus-icon {
+    width: 80px;
+    background: #fc0254;
+    text-align: center;
+    height: 57px;
+    line-height: 57px;
+    color: #fff;
+
+}
+
+.wrapper2 {
+               width: 95%;
+               height: 60px;
+    background-color: #F8F9FB;
+    }
+
+.notes-flex {display: flex;
+justify-content: space-between;
+}
+
+.row2-2 {
+    width: 50%;
+       height: 934px;
+   }
+
+.column2-2 {
+    background-image: url("Images/soup.jpg");
+    height: 514px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.column2-2:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 100%;
+    width: 100%;
+}
+.padd {
+    padding-top: 229px;
+}
+.column2-2text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.textred {
+    color: #fff;
+    background: #FC0254;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 4px 25px 4px 25px;
+    margin-top: 35px;
+}
+.text3 { font-size: 30px;
+    text-align:start;
+    padding-top: 5px;
+    margin: 20px 0;
+
+}
+.text4 {
+    font-size: 15px;
+    color: #353535;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+}
+.column2-2-inside {
+    display: flex;
+
+
+}
+
+.column2-3text {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 55%
+}
+
+.small-img {
+    background-image: url("Images/spinatai.jpg");
+    /*height: 20%;*/
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 54%;
+    position: relative;
+}
+.textred2 {
+    color: #fff;
+    background: #FC0254;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 4px 25px 4px 25px;
+    margin-top: 0;
+
+}
+.text5 { font-size: 30px;
+    text-align:start;
+    padding-top: 5px;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.text6 {
+    font-size: 15px;
+    color: #353535;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+}
+.small-img:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 83%;
+    width: 100%;
+}
+.padd1 {
+    padding-top: 36px;}
+
+.small-img2 {
+    background-image: url("Images/brusketos.jpg");
+    /*height: 20%;*/
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 45%;
+    position: relative;
+}
+.small-img2:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 83%;
+    width: 100%;
+}
+.small-img3 {
+    background-image: url("Images/braskiu-desertas.jpg");
+    /*height: 20%;*/
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 54%;
+    position: relative;
+}
+.small-img3:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 83%;
+    width: 100%;
+}
+
+.small-img4 {
+    background-image: url("Images/makaronai.jpg");
+    /*height: 20%;*/
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 54%;
+    position: relative;
+}
+.small-img4:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: rgba(252, 2, 84, 0.4);
+    height: 83%;
+    width: 100%;
+
+}
+.marg-30 {
+    margin-top: 30px;
+}

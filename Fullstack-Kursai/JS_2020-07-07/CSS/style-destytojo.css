@@ -1,0 +1,39 @@
+
+header {
+    text-align: center;
+    padding: 5px 0;
+}
+img {
+    max-width: 150px;
+}
+nav > a {
+    display: block;
+    padding-bottom: 0.5em;
+}
+nav > a:last-child {
+    padding-bottom: 0;
+}
+@media only screen and (min-width:768px){
+nav > a {
+    display: inline;
+    padding-bottom: 0;
+    margin-right: 10px;
+}
+    header > .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    header {
+        background: #e2e6ea;
+    }
+    .wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    nav > a:last-child {
+        margin-right: 0;
+    }
+}

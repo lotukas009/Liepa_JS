@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-plain {
+   background-color: #311E25;
+    background-size: cover;
+    height: 698px;
+    margin: 0;
+   }
+
+.p-title {
+    color: white;
+    width: 80%;
+    font-size: 36px;
+    padding-top: 120px;
+}
+.inside-wrapper {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+}
+.w-50 {
+        width: 50%;
+    height: 346px;
+}
+
+li {
+    list-style: none;
+}
+.li-1 {font-size: 16px;
+    line-height: 28px;
+    color: #c9c9c9;
+    margin: 20px 0;
+}
+
+.li-button {color: #db9a64;
+    border: 1px solid #db9a64;
+    margin-top: 28px;
+    padding: 16px 49px;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+
+    }
+
+.li-button:hover {
+    color: white;
+    background-color: #db9a64;
+    border: 1px solid transparent;
+}
+
+.w-42 {
+    width: 42%;
+    height: 346px;
+}
+.bar-text {display: flex;
+justify-content: space-between}
+.w-30 {
+    width: 30%;
+    color: white;
+}
+.w-15 {
+    width: 15%;
+    color: white;
+    text-align: end;
+}
+
+.progressbar {
+    background-color: white;
+    border-radius: 10px;
+    /*padding: 3px;*/
+    margin: 20px 0 40px 0;
+
+}
+.progressbar-over-90 {
+    width: 90%;
+    background-color: #db9a64 ;
+    border-radius: 10px;
+    height: 5px;
+    padding: 0;
+    margin: 0;
+}
+.progressbar-over-70 {
+    width: 70%;
+    background-color: #db9a64 ;
+    border-radius: 10px;
+    height: 5px;
+    padding: 0;
+    margin: 0;
+}
+.progressbar-over-45 {
+    width: 45%;
+    background-color: #db9a64 ;
+    border-radius: 10px;
+    height: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.h1-title {
+    color: white;
+    width: 80%;
+    font-size: 36px;
+    padding-top: 120px;
+}
+.bg-plain-light {
+    background-color: #3b2930;
+    background-size: cover;
+    height: 698px;
+    margin: 0;
+}
+
+.box3-flex {
+    display: flex;
+    flex-direction: row;
+  }
+.bix-box3 {
+    background-color: #00b4d9;
+    width: 40%;
+    height: 329.91px;
+    }
+.small-box {background-color: yellow;
+    width: 330px;
+    height: 299.76px;
+    /*margin-left: 19px;*/
+    display: inline;
+
+}

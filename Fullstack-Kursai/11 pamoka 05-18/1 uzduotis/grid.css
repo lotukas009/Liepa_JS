@@ -1,0 +1,53 @@
+v-12 {
+    width: 100%;
+}
+v-1 {
+    width: 8.33333%;
+}
+v-2 {
+    width: 16.66666%;
+}
+v-3 {
+    width: 25%;
+}
+v-4 {
+    width: 33.333333%;
+}
+v-5 {
+    width: 41.66666%;
+}
+v-6 {
+    width: 50%;
+}
+v-7 {
+    width: 58.333333%;
+}
+v-8 {
+    width: 10%;
+}v-9 {
+     width: 75%;
+ }
+v-10 {
+    width: 83.333333%;
+}v-11 {
+     width: 91.66666%;
+ }
+
+d-flex {
+    display: flex;
+}
+d-flex-just {
+    justify-content: space-between;
+}
+
+tx-display {
+    text-align: center;
+    }
+pdng {20px 10px}
+
+col1 {
+    padding: 20px; 10px
+}
+tx-color
+{color: #AB230D;}
+

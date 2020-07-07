@@ -1,0 +1,131 @@
+
+body {
+    background-image: url("https://bootstrapmade.com/demo/themes/ComingSoon/assets/img/bg.jpg");
+    height: 100%;
+    position: relative;
+
+}
+body::before {
+    content:"";
+    /*position:top;*/
+      position: absolute;
+    background-color: rgba(34, 34, 34, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+.ml-px {
+    margin-left: 25%;
+}
+.pt-80px {
+    padding-top: 80px;
+}
+
+.card-m {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px;
+    word-wrap: break-word;
+    background-color: rgba(34, 34, 34, 0.8);
+    border-top: 3px solid red;
+    height: 130px;
+    width: 25px;
+    }
+
+.text-size {
+    font-size: 14px;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white!important;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ff0000;
+    border: 1px solid #ff0000!important;
+    border-radius: 0!important;
+}
+
+.input-group
+ {
+    width: 200px!important;
+
+}
+.custom-file-labelm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #fff!important;
+}
+i:hover {
+    color: white!important;
+    }
+
+.pl-6 {
+    padding-left: 6rem !important;
+}
+.position-absolute {
+    top: 6px;
+    left: 66px;
+}
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+}
+.form-control {
+    display: block;
+    /*width: 100%;*/
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0!important;;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control1 {
+    height: 100px!important;
+}
+.button-m {
+    background-color:#ff0000 !important;
+    border: 1px solid #ff0000!important;
+}
+.pb-80px {
+    padding-bottom: 80px;
+}
+.font-s {
+    font-size: 14px;
+}
+.font-cl-red {
+    color: #ff3333;
+    border: 1px solid #ff3333 ;
+}
